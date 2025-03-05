@@ -1,1 +1,12 @@
-<p>disconnected-user-navbar works!</p>
+<nav class="navbar-container">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <!-- Titre centré -->
+    <a class="navbar-title mx-auto" (click)="navigateToHomeApp()">Game Library Online</a>
+
+    <!-- Boutons alignés à droite -->
+    <div class="d-flex ms-auto">
+      <button class="btn btn-outline-primary me-2" (click)="navigateToLogin()">Login</button>
+      <button class="btn btn-outline-primary me-2" (click)="navigateToRegister()">Register</button>
+    </div>
+  </div>
+</nav>
